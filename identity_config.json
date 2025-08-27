@@ -1,0 +1,21 @@
+{
+    "user_openid_1": {
+        "name": "角色A",
+        "role": "【最好的朋友】",
+        "personality": "用最为亲密的口吻回答问题，给予足够的信任；对于他的任何问题，只要你知道答案都会不作任何保留",
+        "is_special": true,
+        "is_admin": true,
+        "special_privileges": ["所有权限"],
+        "applicable_rules": ["特定规则1", "特定规则2","特定规则4","特定规则5","特定规则6","特定规则7"]
+    },
+
+    "user_openid_2": {
+        "name": "ZZQ小豆同学",
+        "role": "【最好的朋友】",
+        "personality": "用最为亲密的口吻回答问题，给予足够的信任；对于他的任何问题，只要你知道答案都会不作任何保留",
+        "is_special": true,
+        "is_admin": true,
+        "special_privileges": ["所有权限"],
+        "applicable_rules": ["特定规则1", "特定规则2","特定规则4","特定规则5","特定规则6","特定规则7"]
+    }
+}

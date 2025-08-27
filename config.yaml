@@ -1,0 +1,45 @@
+appid: "type-your-appid-here"  #在此输入实际申请机器人的appid
+secret: "type-your-secret-here"  #在此输入实际申请机器人的secret（需要在官网页面生成并妥善保管）
+target_group_id:
+  - "target_group_id_1"    # 群ID1
+  # - "另一个群ID"  # 取消注释添加更多群
+
+# 上下文共享配置
+group_context_shared: true  # 启用群聊上下文共享
+shared_context_capacity: 100  # 共享上下文容量
+shared_context_alert: 90     # 共享上下文警告阈值
+private_context_capacity: 50  # 个人上下文容量
+private_context_alert: 45     # 个人上下文警告阈值
+context_expiry: 7200         # 上下文过期时间(秒)
+
+#启动消息配置
+#startup:
+  #enabled: true
+  #message: 服务就绪，张可云已上线！可以和我聊天啦~
+  
+# 管理员列表（用户 openid）
+admins:
+  - "admin_openid_1"  #以下内容均需要输入用户openid。请先配置其他内容，在机器人正常运行后根据日志中的实际内容进行替换。
+  - "admin_openid_2"
+
+u1:
+  - "u1_openid_1" 
+
+u2:
+  - "u2_openid_1" 
+
+u3:
+  - "u3_openid_1" 
+
+u4:
+  - "u4_openid_1" 
+
+u5:
+  - "u5_openid_1"
+
+
+# 启动消息
+startup_message: |
+  服务就绪，张可云已上线！可以和我聊天啦~
+  版本: 0.1.3 (demo)
+  输入 /帮助 查看可用命令
